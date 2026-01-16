@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pixel Golf</title>
+    <link rel="icon" type="image/png" href="/assets/favicon-BKjIQtOF.png">
+  <script type="module" crossorigin src="/assets/index-DUdxb2FP.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-n5bcf9dt.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="360" height="640"></canvas>
+        <div id="ui-layer">
+            <div id="hud">
+                <div class="hud-item">Level: <span id="level-display">1</span>/3</div>
+                <div class="hud-item" id="hearts-container">❤️❤️❤️</div>
+                <button id="reset-btn" class="pixel-btn">R</button>
+            </div>
+            <div id="message-overlay" class="hidden">
+                <h1 id="message-text">Nice!</h1>
+                <button id="next-btn" class="pixel-btn">Next Level</button>
+                <a id="cta-btn" href="#" target="_blank" class="pixel-btn cta-btn hidden">DOWNLOAD NOW</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

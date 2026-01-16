@@ -1,0 +1,3 @@
+@echo off
+echo Starting Git Golf Development Server...
+npm run dev
